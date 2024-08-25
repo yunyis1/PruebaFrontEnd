@@ -1,0 +1,155 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de la Sección Principal */
+main {
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center; 
+    height: 100vh;           
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+main section {
+    max-width: 800px;        
+    width: 100%;             
+    text-align: center;     
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+main p {
+    line-height: 1.6;
+}
+/* Estilos para la nueva sección */
+#desafio-dos {
+    background-color: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+#desafio-dos h2 {
+    color: #00796b;
+}
+
+#desafio-dos pre {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 1rem;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+#desafio-dos code {
+    font-family: monospace;
+}
+
+/* Estilo para los inputs numéricos */
+.number-input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #b2ebf2;
+    border-radius: 5px;
+    width: 100px;
+}
+
+/* Estilo para el botón */
+#calculate-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculate-button:hover {
+    background-color: #004d40;
+}
+
+
+/* Estilos del Pie de Página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Diseño Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    footer {
+        position: static;
+    }
+}

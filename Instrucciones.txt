@@ -1,0 +1,11 @@
+1. en el archivo html dar doble clic allí aparecerá el desafío 1 y 2 en el mismo sitio cada vez que escriban un valor se agregara otro input para asi obtener un array numericoy que sea muy intuitivo para el usuario al oprimir calcular sumara los numero pares.
+2. En el desafío 3, desarrollé un proyecto en Angular que incluye una librería externa. Actualmente, soy experto en el uso de estas dos librerías. Para ejecutar el proyecto, sigan estos pasos:
+
+- Primero, asegúrense de instalar todas las dependencias necesarias ejecutando el siguiente comando:
+  npm install
+- Luego, inicien el servidor de desarrollo con el comando:
+  npm run start
+- Una vez que el servidor esté en funcionamiento, pueden acceder al proyecto abriendo la URL `http://localhost:4200/`. Simplemente hagan `Ctrl + click` en el enlace para abrirlo en su navegador.
+- Les recomiendo cerrar la sesión e ingresar de nuevo para experimentar la funcionalidad completa de esta poderosa herramienta. Lo más importante es que el proyecto está muy bien estructurado para permitir un crecimiento masivo y escalable.
+
+gracias, me hubiera gustado tener mas tiempo para sorprenderlos :). 
